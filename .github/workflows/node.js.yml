@@ -3,11 +3,12 @@ name: Node CI
 on: [push]
 
 jobs:
-      runs-on: ubuntu-latest
+      
       - uses: actions/upload-artifact@master
         needs: build
         name: webpack artifacts
         path: public/
+        runs-on: ubuntu-latest
 
 
 

@@ -15,7 +15,7 @@ jobs:
         
         - uses: actions/upload-artifact@master
           name: webpack artifacts
-          path: public/
+            path: public/
 
   test:
     steps:
